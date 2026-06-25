@@ -55,3 +55,14 @@ body {
         height: auto;
     }
 }
+.header p {
+    font-size: 18px;
+}
+
+.news-card {
+    transition: transform 0.2s;
+}
+
+.news-card:hover {
+    transform: scale(1.02);
+}
