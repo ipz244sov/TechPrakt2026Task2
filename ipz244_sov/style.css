@@ -36,3 +36,22 @@ body {
     height: 120px;
     object-fit: cover;
 }
+.news-card h2 {
+    margin-top: 0;
+    color: #111827;
+}
+
+.news-card p {
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .news-card {
+        flex-direction: column;
+    }
+
+    .news-card img {
+        width: 100%;
+        height: auto;
+    }
+}
